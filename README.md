@@ -84,3 +84,11 @@ Output:-
 Cannot divide by zero!
 This will always run.
 
+# Function call
+def add(x,y):
+    return x+y or x-y
+dm=add(5,6)
+print(dm)
+
+Output:-
+11
