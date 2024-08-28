@@ -51,3 +51,36 @@ see you soon
 Hello
 I am from HYD
 see you soon
+
+# Exceptions
+# 1
+a = 10
+b = 2
+try:
+    result = a / b
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+else:
+    print("Division successful:", result)
+finally:
+    print("This will always run.")
+
+output:- 
+Division successful: 5.0
+This will always run.
+# 2
+a = 10
+b = 0
+try:
+    result = a / b
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+else:
+    print("Division successful:", result)
+finally:
+    print("This will always run.")
+
+Output:-
+Cannot divide by zero!
+This will always run.
+
